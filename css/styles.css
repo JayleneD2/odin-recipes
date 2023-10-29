@@ -13,28 +13,31 @@ h1
     color:pink;
     font-weight: bold;
     font-size: 50;
+    text-align: center;
 
 }
 
+
 a:link, a:visited {
     background-color: white;
-    color: black;
-    border: 2px solid  rgba(57, 34, 14, 0.697)een;
+    color: rgb(226, 122, 139);
+    border: 2px solid  rgba(57, 34, 14, 0.697);
     padding: 10px 20px;
-    text-align: center;
+    text-align: center; /* To center the text within the link */
     text-decoration: none;
-    display: inline-block;
+    display:block;
+    margin: 0 auto; /* To center the entire link */
   }
   
   a:hover, a:active {
     background-color: rgba(57, 34, 14, 0.697);
     color: white;
+    
   }
 
-img {
-   
+  img {
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-      
-}
+    display: block;
+
+  }
