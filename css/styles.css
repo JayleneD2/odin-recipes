@@ -11,7 +11,7 @@ ul{
 h1
 {
     color:pink;
-    font-weight: bold;
+    font-weight:bold;
     font-size: 50;
     text-align: center;
 
@@ -43,4 +43,11 @@ a:link, a:visited {
         display:block;
         
     
+      }
+
+
+      h4 ,
+      h3 {
+        text-align: center;
+        
       }
