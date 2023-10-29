@@ -1,6 +1,6 @@
 *{
     background-color: rgb(134, 131, 126);
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
 
@@ -12,6 +12,7 @@ h1
     font-weight:bold;
     font-size: 50;
     text-align: center;
+   
 
 }
 
@@ -47,5 +48,10 @@ a:link, a:visited {
       h4 ,
       h3,p {
         text-align: center;
+        color:white;
 
+      }
+
+      ul,ol,p {
+        color: rgb(226, 122, 139);
       }
