@@ -12,7 +12,7 @@ h1
     font-weight:bold;
     font-size: 50;
     text-align: center;
-   
+    
 
 }
 
@@ -26,6 +26,9 @@ a:link, a:visited {
     text-decoration: none;
     display:block;
     margin: 0 auto; /* To center the entire link */
+    width:100px;
+    margin: 16px auto;
+
   }
   
   a:hover, a:active {
@@ -52,6 +55,6 @@ a:link, a:visited {
 
       }
 
-      ul,ol,p {
+      ul,ol, p {
         color: rgb(226, 122, 139);
       }
